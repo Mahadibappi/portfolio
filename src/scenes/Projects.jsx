@@ -10,29 +10,8 @@ const container = {
   },
 };
 
-const projectVariant = {
-  hidden: { opacity: 0, scale: 0.8 },
-  visible: { opacity: 1, scale: 1 },
-};
 
-const Project = ({ title }) => {
-  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
-  const projectTitle = title.split(" ").join("-").toLowerCase();
 
-  return (
-    <motion.div variants={projectVariant} className="relative">
-      {/* <div className={overlayStyles}>
-        <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
-        </p>
-      </div> */}
-      <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
-    </motion.div>
-  );
-};
 
 const Projects = () => {
   return (
@@ -64,28 +43,25 @@ const Projects = () => {
 
       {/* PROJECTS */}
       <div className="flex justify-center">
+        
         <motion.div
-          className="sm:grid gap-3 sm:grid-cols-3"
+          className="sm:grid gap-4 sm:grid-cols-3"
           variants={container}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          {/* ROW 1 */}
-         
-          <Project title="Project 1" />
-          <Project title="Project 2" />
-          <Project title="Project 3" />
+          <div className="text-4xl">
+            <a target="_blank" href="https://pinvent-app.vercel.app/" rel="noreferrer">Inventory Management app</a>
+         </div>
+          <div className="text-4xl">
+            <a target="_blank" href="https://social-media-client-one.vercel.app" rel="noreferrer">Social Media app</a>
+         </div>
+          <div className="text-4xl">
+            <a target="_blank" href="https://pinvent-app.vercel.app/" rel="noreferrer">Expense Tracker app</a>
+         </div>
+        
 
-          {/* ROW 2
-          <Project title="Project 4" />
-          <Project title="Project 6" />
-          <Project title="Project 7" />
-           */}
-
-          {/* ROW 3 */}
-          
-         
         </motion.div>
       </div>
     </section>
