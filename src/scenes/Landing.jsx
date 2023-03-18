@@ -19,8 +19,8 @@ const Landing = ({ setSelectedPage }) => {
           >
             <img
               alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src="assets/profile-image.png"
+              className="hover:filter rounded-lg  transition duration-500 z-10 w-full max-w-[400px] md:max-w-[400px]"
+              src="../assets/profile-p.jpg"
             />
           </div>
         ) : (
@@ -46,18 +46,18 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            Jane {""}
+            Mahadi {""}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
             >
-              Esper
+              Hasan
             </span>
           </p>
+          <p className="text-4xl font-playfair mt-5 text-center md:text-start"> MERN Stack Developer</p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
-            viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+             I am well positioned to leverage my abilities and qualifications to thrive as MERN stack Developer.I have designed, developed, and launched customized, highly responsive websites and e-commerce solutions using advanced technologies.
           </p>
         </motion.div>
 
@@ -75,21 +75,19 @@ const Landing = ({ setSelectedPage }) => {
         >
           <AnchorLink
             className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-              hover:bg-blue hover:text-white transition duration-500"
+              hover:bg-violet-500 hover:text-white transition duration-500"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
             Contact Me
           </AnchorLink>
-          <AnchorLink
-            className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
-            onClick={() => setSelectedPage("contact")}
-            href="#contact"
-          >
+          <div className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5">
             <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
-              Let's talk.
+              <a href="RESUME OF MAHADI.pdf" download="RESUME OF MAHADI.pdf">
+                My Resume
+                </a>
             </div>
-          </AnchorLink>
+          </div>
         </motion.div>
 
         <motion.div

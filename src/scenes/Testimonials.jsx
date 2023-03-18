@@ -21,8 +21,7 @@ const Testimonials = () => {
         </p>
         <LineGradient width="mx-auto w-2/5" />
         <p className="mt-10">
-          Here's What People are Saying About My Work. Aliquam aliquet integer
-          ut fames odio in at. At magna ornare dictum lectus.
+          Here's What People are Saying About My Work. Please leave a valuable review on work.
         </p>
       </motion.div>
 
@@ -42,12 +41,12 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea.
+            Mahadi is a very good coder i am satisfied by his work go ahead.
           </p>
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-slate-600 max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person2"
           initial="hidden"
           whileInView="visible"
@@ -60,13 +59,12 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Aliquam aliquet integer ut fames odio in at. At magna ornare dictum
-            lectus.
+            He did amazing work i prefer more his work clean and understanding.
           </p>
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-violet-400 max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person3"
           initial="hidden"
           whileInView="visible"
@@ -79,7 +77,7 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Fames odio in at. At magna ornare dictum lectus.
+            Nice job you have done your project is very good it's full fill my requirements.
           </p>
         </motion.div>
       </div>
