@@ -58,7 +58,7 @@ const Projects = () => {
             <a target="_blank" href="https://social-media-client-one.vercel.app" rel="noreferrer">Social Media app</a>
          </div>
           <div className="text-4xl">
-            <a target="_blank" href="https://pinvent-app.vercel.app/" rel="noreferrer">Expense Tracker app</a>
+            <a target="_blank" href="https://moonlit-licorice-b83791.netlify.app" rel="noreferrer">Expense Tracker app</a>
          </div>
         
 
