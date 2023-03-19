@@ -57,7 +57,7 @@ const Landing = ({ setSelectedPage }) => {
           <p className="text-4xl font-playfair mt-5 text-center md:text-start"> MERN Stack Developer</p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-             I am well positioned to leverage my abilities and qualifications to thrive as MERN stack Developer.I have designed, developed, and launched customized, highly responsive websites and e-commerce solutions using advanced technologies.
+             Hello, I'm a MERN stack developer. I have experience working with all components of the MERN stack, including MongoDB for database management, Express.js for server-side development, React for front-end development, and Node.js for back-end development.   I'm confident in my ability to build scalable and robust web applications.
           </p>
         </motion.div>
 
