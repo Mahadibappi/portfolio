@@ -14,7 +14,8 @@ const Landing = ({ setSelectedPage }) => {
       <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
         {isAboveLarge ? (
           <div
-            
+              className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
+              before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
           >
             <img
               alt="profile"

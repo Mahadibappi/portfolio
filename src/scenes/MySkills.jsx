@@ -36,7 +36,7 @@ const About = () => {
             >
               <img
                 alt="about"
-                className="z-10 rounded-lg w-3/4"
+                className="hover:filter rounded-lg  transition duration-500 z-10 w-full max-w-[400px] md:max-w-[400px]"
                 src="../assets/mahadi-2.png"
               />
             </div>
