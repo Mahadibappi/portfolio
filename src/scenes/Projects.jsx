@@ -49,7 +49,7 @@ const Projects = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-        <div className="text-3xl text-center "
+        <div className="text-lg text-center "
         style={{
         backgroundImage: `url(${"../assets/project-01.png"})`,
         backgroundSize: 'cover',
@@ -60,13 +60,13 @@ const Projects = () => {
             }}>
             <div className="mb-40"></div>
             
-            <button class="bg-blue-500 hover:bg-rose-500 text-green-500 font-bold py-2 px-4 border border-red rounded">
-              <a  target="_blank" href="https://pinvent-app.vercel.app/" rel="noreferrer">View App</a>
+            <button class="bg-red hover:bg-rose-500 text-green-500 font-bold py-2 px-4 border border-red rounded">
+              <a  target="_blank" href="https://pinvent-app.vercel.app/" rel="noreferrer">View Project</a>
           </button>
           
           </div>
           
-        <div className="text-3xl text-center "
+        <div className="text-lg text-center "
         style={{
         backgroundImage: `url(${"../assets/project-02.png"})`,
         backgroundSize: 'cover',
@@ -75,12 +75,12 @@ const Projects = () => {
         height: '400px',
             }}>
              <div className="mb-40"></div>            
-             <button class="bg-blue-500 hover:bg-rose-500 text-green-500 font-bold py-2 px-4 border border-red rounded">
-              <a  target="_blank" href="https://social-media-client-one.vercel.app"  rel="noreferrer">View App</a>
+             <button class=" bg-red hover:bg-rose-500 text-green-500 font-bold py-2 px-4 border border-red rounded">
+              <a  target="_blank" href="https://social-media-client-one.vercel.app"  rel="noreferrer">View Project</a>
           </button>
           </div>
           
-      <div className="text-3xl text-center"
+      <div className="text-lg text-center"
         style={{
         backgroundImage: `url(${"../assets/project-03.png"})`,
         backgroundSize: 'cover',
@@ -91,8 +91,8 @@ const Projects = () => {
       }}
       >
           <div className="mb-40"></div>
-                <button class="bg-blue-500 hover:bg-rose-500 text-green-500 font-bold py-2 px-4 border border-red rounded">
-              <a  target="_blank" href="https://moonlit-licorice-b83791.netlify.app"   rel="noreferrer">View App</a>
+                <button class=" bg-red hover:bg-rose-500 text-green-500 font-bold py-2 px-4 border border-red rounded">
+              <a  target="_blank" href="https://moonlit-licorice-b83791.netlify.app"   rel="noreferrer">View Project</a>
           </button>
             
          </div>
