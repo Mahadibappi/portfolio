@@ -1,5 +1,11 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
+import ProjectOne from "../projects/ProjectOne";
+import ProjectTwo from "../projects/ProjectTwo";
+import ProjectThree from "../projects/ProjectThree";
+import ProjectFour from "../projects/ProjectFour";
+import ProjectFive from "../projects/ProjectFive";
+import ProjectSix from "../projects/ProjectSix";
 
 const container = {
   hidden: {},
@@ -9,7 +15,6 @@ const container = {
     },
   },
 };
-
 
 const Projects = () => {
   return (
@@ -35,13 +40,13 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10 text-2xl">
-          Using my stack i have developed these full stack projects please click the link below to see details
+          Using my stack i have developed these full stack projects please click
+          the link below to see details
         </p>
       </motion.div>
 
       {/* PROJECTS */}
       <div className="flex justify-center">
-        
         <motion.div
           className="sm:grid gap-5 sm:grid-cols-3"
           variants={container}
@@ -49,55 +54,12 @@ const Projects = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-        <div className="text-lg text-center "
-        style={{
-        backgroundImage: `url(${"../assets/project-01.png"})`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
-        height: '400px',
-        width: '400px',
-            }}>
-            <div className="mb-40"></div>
-            
-            <button class="bg-red hover:bg-rose-500 text-green-500 font-bold py-2 px-4 border border-red rounded">
-              <a  target="_blank" href="https://pinvent-app.vercel.app/" rel="noreferrer">View Project</a>
-          </button>
-          
-          </div>
-          
-        <div className="text-lg text-center "
-        style={{
-        backgroundImage: `url(${"../assets/project-02.png"})`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
-        height: '400px',
-            }}>
-             <div className="mb-40"></div>            
-             <button class=" bg-red hover:bg-rose-500 text-green-500 font-bold py-2 px-4 border border-red rounded">
-              <a  target="_blank" href="https://social-media-client-one.vercel.app"  rel="noreferrer">View Project</a>
-          </button>
-          </div>
-          
-      <div className="text-lg text-center"
-        style={{
-        backgroundImage: `url(${"../assets/project-03.png"})`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
-        height: '400px',
-       
-      }}
-      >
-          <div className="mb-40"></div>
-                <button class=" bg-red hover:bg-rose-500 text-green-500 font-bold py-2 px-4 border border-red rounded">
-              <a  target="_blank" href="https://moonlit-licorice-b83791.netlify.app"   rel="noreferrer">View Project</a>
-          </button>
-            
-         </div>
-        
-
+          <ProjectOne />
+          <ProjectTwo />
+          <ProjectThree />
+          <ProjectFour />
+          <ProjectFive />
+          <ProjectSix />
         </motion.div>
       </div>
     </section>
