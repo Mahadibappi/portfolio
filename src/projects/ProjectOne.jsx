@@ -15,13 +15,13 @@ const ProjectOne = () => {
     >
       <div className="mb-40"></div>
 
-      <button class="bg-red hover:bg-rose-500 text-green-500 font-bold py-2 px-4 border border-red rounded">
+      <button class="bg-red hover:bg-rose-500 text-white font-semibold py-2 px-4 border border-red rounded sm:mt-1/2">
         <a
           target="_blank"
-          href="https://pinvent-app.vercel.app/"
+          href="https://admin-client-xi.vercel.app/dashboard"
           rel="noreferrer"
         >
-          View Project
+          Project Url
         </a>
       </button>
     </div>
